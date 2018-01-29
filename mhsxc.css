@@ -108,3 +108,8 @@ ul {
 	display: flex;
 	flex-direction: row;
 }
+
+.maps {
+	display: flex;
+	flex-direction: row;
+}
