@@ -3,38 +3,42 @@ body {
 	display: flex;
 	flex-direction: column;
 }
+.sidenav {
+	
+    height: 100%;
+    width: 180px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: red;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+}
+
+.sidenav a:hover {
+    color: white;
+}
+
+.main {
+	margin-left: 170px;
+	padding: 0px 10px;
+}
 
 .intro {
 	margin: 20px;
 }
 
-.topnav {
-	background-color: red;
-	padding: 0;
-	display: flex;
-	justify-content: flex-end;
-	align-items: center;
-}
-
-.name {
-	align-self: flex-start;
-	color: white;
-	font-style: italic;
-	margin: 8px;
-}
-
-.spacer {
-	flex-grow: 2;
-}
-
-.topnav a {
-	color: white;
-	text-decoration: none;
-	padding: 18px;
-}
-
 .content {
-	display: flex;
+	display: fixed;
 	flex-direction: column;
 }
 
@@ -87,9 +91,28 @@ ul {
 	color:gray;
 }
 
+.image {
+	width: 25%;
+	height: 50%;
+	display: flex;
+	flex-direction: row;
+}
+
+.maps {
+	display: flex;
+	flex-direction: row;
+}
+
+/* navbar */
+
+
+
+.name{
+	text-decoration: none;
+	color: red;
+}
+
 .hvr-glow {
-  display: inline-block;
-  vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
   box-shadow: 0 0 1px transparent;
@@ -103,14 +126,14 @@ ul {
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
 }
 
-.image {
-	width: 25%;
-	height: 50%;
-	display: flex;
-	flex-direction: row;
-}
+/* navbar end */
 
-.maps {
-	display: flex;
-	flex-direction: row;
-}
+/* start of copied code */
+
+.w3-content{max-width:980px;margin:auto}
+
+.w3-section,.w3-code{margin-top:16px!important;margin-bottom:16px!important}
+
+.w3-animate-fading{animation:fading 10s infinite}@keyframes fading{0%{opacity:0}50%{opacity:1}100%{opacity:0}}
+
+/* end of copied code */
