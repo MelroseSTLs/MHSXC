@@ -36,27 +36,53 @@ body {
 	padding: 10px;
 }
 
-.intro {
-	margin: 0;
-}
-
 .content {
 	display: flex;
 	flex-direction: column;
 	margin-left: 180px;
 }
 
+.topbar {
+	display: flex;
+	flex-direction: row;
+}
+
+.logo {
+	width: 30%;
+	height: 15%;
+	margin: 2px;
+}
+
+.intro {
+	margin: 36px;
+}
+
+.secondbar {
+	display: flex;
+	flex-direction: row;
+}
+
 .slideshow{
 	display: flex;
 	flex-direction: column;
-	justify-content: right;
+	justify-content: center;
+	width: 50%;
 }
 
 .whatsnew {
 	border: 2px;
 	border-style: solid;
 	padding: 8px;
-	margin: 1px;
+	margin: 2px;
+	width: 50%;
+	height: 50%;
+}
+
+.summertraining {
+	border: 2px;
+	border-style: solid;
+	padding: 8px;
+	margin: 2px;
 }
 
 .whatsnewp {
