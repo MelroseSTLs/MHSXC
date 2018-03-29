@@ -20,7 +20,7 @@ getCsvSheet.get("https://cors-anywhere.herokuapp.com/https://docs.google.com/spr
 			console.log("Finished:", results.data);
 			var myString = '';
 			for (x in results.data) {
-				if(x != 0){
+				if(x != 0 && results.data[x][1].length > 0){
 					myString += "<li>"+results.data[x][1]+"</li>";
 				}
 			}
