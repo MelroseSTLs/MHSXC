@@ -98,6 +98,17 @@ ul {
 	margin: 8px;
 }
 
+.pictures {
+	display: flex;
+	flex-direction: row;
+}
+
+.photo {
+	width: 50%;
+	height: 50%;
+	margin: 1px;
+}
+
 .teacher {
 	font-weight: bold;
 }
