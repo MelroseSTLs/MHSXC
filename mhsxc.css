@@ -48,9 +48,9 @@ body {
 }
 
 .logo {
-	width: 30%;
-	height: 15%;
-	margin: 2px;
+	height: 75px;
+	margin: 4px;
+	padding-bottom: 6px;
 }
 
 .intro {
