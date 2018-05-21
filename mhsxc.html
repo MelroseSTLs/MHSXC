@@ -21,19 +21,19 @@
       <a href="contact.html" class="hvr-glow">Contact</a>
     </div>
     <div class= "content">
-      <div class="topbar">
-        <h3 class="intro">Welcome to the official site of the Melrose Cross Country team.
-          Here you can find a full schedule, team photos, and contacts for coaches and captains.
-        </h3>
-      </div>
       <div class="secondbar">
-        <!-- start of copied code -->
-        <div class="slideshow w3-content w3-section" >
-          <img class="mySlides w3-animate-fading" src="pictures/girlsteam2.jpg" style="width:100%">
-          <img class="mySlides w3-animate-fading" src="pictures/start.jpg" style="width:100%">
-          <img class="mySlides w3-animate-fading" src="https://pbs.twimg.com/media/DJ3lQ7PUEAAXZX-.jpg" style="width:100%">
-          <img class="mySlides w3-animate-fading" src="https://pbs.twimg.com/media/DJ3lQ7EVoAAjrPP.jpg" style="width:100%">
-        </div>
+	  
+	    <div id="slideshow">
+  <div class="slide-wrapper">
+    <div class="slide"><h1 class="slide-number"></h1></div>
+    <div class="slide"><h1 class="slide-number"></h1></div>
+    <div class="slide"><h1 class="slide-number"></h1></div>
+    <div class="slide"><h1 class="slide-number"></h1></div>
+    <div class="slide"><h1 class="slide-number"></h1></div>
+  </div>
+</div>
+
+	  
 	    <div class="updates">
           <div class="whatsnew">
             <p class="whatsnewp">What's New</p>
@@ -41,28 +41,9 @@
               <p>Loading...</p>
             </ul>
           </div>
-		  <div class="minisched">
-			<iframe src="https://calendar.google.com/calendar/embed?showNav=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;mode=WEEK&amp;height=200&amp;wkst=1&amp;bgcolor=%23ff6666&amp;src=jmurph0019%40gmail.com&amp;color=%231B887A&amp;ctz=America%2FNew_York" style="border:solid 1px #777; margin:2px;" frameborder="0" scrolling="no" class="minisched"></iframe>         
-		  </div>
+		  <iframe src="https://calendar.google.com/calendar/embed?showNav=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;mode=WEEK&amp;height=200&amp;wkst=1&amp;bgcolor=%23ff6666&amp;src=jmurph0019%40gmail.com&amp;color=%231B887A&amp;ctz=America%2FNew_York" style="border:solid 1px #777; margin:2px; height:75%; width:99%;" frameborder="0" scrolling="no"></iframe>         
 		</div>
 	  </div>
-      <script>
-        var myIndex = 0;
-        carousel();
-        
-        function carousel() {
-            var i;
-            var x = document.getElementsByClassName("mySlides");
-            for (i = 0; i < x.length; i++) {
-               x[i].style.display = "none";  
-            }
-            myIndex++;
-            if (myIndex > x.length) {myIndex = 1}    
-            x[myIndex-1].style.display = "block";  
-            setTimeout(carousel, 9000);    
-        }
-      </script>
-      <!-- end of copied code -->
       <div class="summertraining">
         <p class="whatsnewp">Summer Training</p>
         <p>Summer Training is very important to success in the actual season.
@@ -74,9 +55,8 @@
           <li>Wednesdays at 5:30 PM</li>
           <li>Fridays at 8:00 AM</li>
         </ul>
-        <p>Monday and Wednesday practices will meet at the concession stand at 
-          Fred Green field and Friday practices will meet either at the Pine Banks
-          track or at the concession stand for a hill workout.<br><br>
+        <p>All practices will meet at the concession stand at 
+          Fred Green field unless noted otherwise.<br><br>
           Summer training can make or break your season, so try your best to make as
           many as you can so we can have a great season!
         </p>
