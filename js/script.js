@@ -38,3 +38,11 @@ function changeText(text){
 	var elem = document.getElementById("whatsnewList");
 	elem.innerHTML = "<ul id='whatsnewList'>"+text+"</ul>";
 }
+
+function openNav(){
+	document.getElementById("sidenav").style.width = "100%";
+}
+
+function closeNav() {
+	document.getElementById("sidenav").style.width = "0";
+}
