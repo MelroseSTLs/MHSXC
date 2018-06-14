@@ -2,6 +2,7 @@
 <html>
   <head>
     <title>Melrose XC</title>
+	<script src="js/script.js"></script> 
     <link rel="stylesheet"
       type="text/css"
       href="mhsxc.css"
@@ -9,7 +10,8 @@
     <link rel="shortcut icon" href="pictures/mhslogo.png">
   </head>
   <body>
-    <div class="sidenav">
+    <div id="sidenav" class="sidenav">
+	  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 	  <img src="pictures/XC Logo.png" class="logo">
       <a href="mhsxc.html" class="hvr-glow">Home</a>
       <a href="schedule.html" class="hvr-glow">Schedule</a>
@@ -18,16 +20,18 @@
       <a href="routes.html" class="hvr-glow">Routes</a>
       <a href="contact.html" class="hvr-glow">Contact</a>
     </div>
+    <div class= "content">
+	<span class="span" onclick="openNav()">&#9776;</span>
     <div class="content">
       <h1>Contact</h1>
       <h3 class="coachemails">Coach Emails</h3>
-      <ul>
+      <ul class="text">
         <li class="contact">Coach Allison - bouncingchickens@gmail.com</li>
         <li class="contact">Coach Tuccinardi - ntuccinardi@melroseschools.com</li>
         <li class="contact">Coach Scudder - tscudder@melroseschools.com</li>
       </ul>
       <h3 class="coachemails">Other Links</h3>
-      <ul>
+      <ul class="text">
       <li class="contact"><a class="links" href="http://ml12xc.weebly.com/" target="_blank">Middlesex League Website</a></li>
       <li class="contact"><a class="links" href="https://www.google.com/url?q=https%3A%2F%2Ftwitter.com%2FMelroseHSXC%3Flang%3Den&sa=D&sntz=1&usg=AFQjCNFh2mhF1-_8J2orARqQhoqTFL4l9A" target="_blank">Twitter</a></li>
     </div>
