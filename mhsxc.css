@@ -36,14 +36,15 @@ body {
 	position: absolute;
 	top: 0;
 	right: 10px;
-	font-size: 36px;
+	font-size: 60px;
 	margin-right: 50px;
 }
 
 .span {
-	font-size:50px;
+	font-size:60px;
 	cursor:pointer;
 	width:20px;
+	margin-left: 16px;
 }
 
 .text {
@@ -78,6 +79,7 @@ body {
 	.text {font-size:16px;}
 	.maps {flex-direction:row;}
 	.a_map {width:50%;height:480px;}
+	.closebtn {font-size:36px;}
 }
 
 .main {
