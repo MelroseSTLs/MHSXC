@@ -2,6 +2,7 @@
 <html>
   <head>
     <title>Melrose XC</title>
+	<script src="js/script.js"></script> 
     <link rel="stylesheet"
       type="text/css"
       href="mhsxc.css"
@@ -9,7 +10,8 @@
     <link rel="shortcut icon" href="pictures/mhslogo.png">
   </head>
   <body>
-    <div class="sidenav">
+    <div id="sidenav" class="sidenav">
+	  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 	  <img src="pictures/XC Logo.png" class="logo">
       <a href="mhsxc.html" class="hvr-glow">Home</a>
       <a href="schedule.html" class="hvr-glow">Schedule</a>
@@ -18,9 +20,11 @@
       <a href="routes.html" class="hvr-glow">Routes</a>
       <a href="contact.html" class="hvr-glow">Contact</a>
     </div>
+    <div class= "content">
+	<span class="span" onclick="openNav()">&#9776;</span>
     <div class="content">
       <h1>Photos</h1>
-      <p>All photos from the 2017 season can be found in this 
+      <p class="text">All photos from the 2017 season can be found in this 
         <a class="links" href="https://drive.google.com/open?id=0B8ZcbgH2YWNWbE9XXzhzVjZjVlU" target="_blank">Google Drive</a>
       </p>
       <div class="pictures">
