@@ -35,14 +35,15 @@ function main(){
 }
 
 function changeText(text){
-	var elem = document.getElementById("whatsnewList");
-	elem.innerHTML = "<ul id='whatsnewList'>"+text+"</ul>";
+	var elem = document.getElementById("wnlist");
+	elem.innerHTML = "<ul id='wnlist'>"+text+"</ul>";
 }
 
 function openNav(){
-	document.getElementById("sidenav").style.width = "100%";
+	document.getElementById("sidenav").style.width = "30%";
 }
 
 function closeNav() {
 	document.getElementById("sidenav").style.width = "0";
 }
+
