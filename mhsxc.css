@@ -43,12 +43,16 @@ ul {
 	top: 0;
 	right: 10px;
 	font-size: 30px;
+	height: 30px;
+	width: 30px;
 }
 
 .span {
+	display: inline;
 	font-size: 30px;
 	cursor: pointer;
-	width: 20px;
+	width: 30px;
+	height: 30px;
 	margin: 16px;
 }
 
@@ -60,13 +64,19 @@ ul {
 	width: 100%;
 }
 
-.topbar {
+.topdiv {
 	display: flex;
 	flex-direction: row;
 }
 
+.topbar {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
 .toplogo {
-	height: 50%;
+	height: 100%;
 	width: 50%;
 }
 
