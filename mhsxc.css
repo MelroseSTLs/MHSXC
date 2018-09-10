@@ -49,8 +49,7 @@ ul {
 	font-size: 30px;
 	cursor: pointer;
 	width: 20px;
-	margin-left: 16px;
-	margin-right: 16px;
+	margin: 16px;
 }
 
 /* end of sidenav */
@@ -67,12 +66,13 @@ ul {
 }
 
 .toplogo {
-	height: 20%;
+	height: 50%;
+	width: 50%;
 }
 
 .logo {
-	height: 50%;
-	width: 50%;
+	height: 100px;
+	width: 250px;
 }
 
 .text {
